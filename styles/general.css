@@ -1,17 +1,97 @@
 body{
   padding: 0;
   margin: 0;
+  font-family: digi;
 }
 .slide{
   width: 100%;
   height: 100vh;
 }
-#slideOne{
+#nav-menu{
+  position: fixed;
+  padding-top: 2%;
+  padding-right: 2%;
+  width: 100%;
+  height: 13%;
   background-color: black;
+  color: white;
+  font-size: 25px;
+  opacity: 0.75;
+  text-align: right;
+  box-shadow: 4px 4px 3px slategrey;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#slideOne{
+  background: url("../images/bici_tercer_milenio.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: digi;
+  background-attachment: fixed;
+  background-size: cover;
+  border-bottom: 4px solid #6F6F6F;
+}
+#frontTitle{
+  color: white;
+  text-shadow: -1px 2px 2px black;
+  font-size: 100px;
+  padding-top: 40vh;
+  margin-left: 5%;
+}
+.redFont{
+  color: red;
 }
 #slideTwo{
-  background-color: yellow;
+  background: url("../images/bici_carril.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#secondSlideTitle{
+  font-size: 40px;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+#presentationImages{
+  text-align: center;
+}
+.presentation{
+  height: 40%;
+}
+.presIcons{
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+#imgPresOne{
+  width: 20%;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+}
+
+#imgPresTwo{
+  width: 20%;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+}
+#textOne{
+  text-align: left;
+  color: white;
+  font-size: 20px;
 }
 #slideThree{
-  background-color: red;
+  background-color: gainsboro;
+}
+@font-face {
+   font-family: digi;
+   src: url('https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Nova+Square.ttf');
 }
