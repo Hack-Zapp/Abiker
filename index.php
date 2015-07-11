@@ -5,7 +5,6 @@
 </head>
   <body>
     <div id="slideOne" class="slide">
-
     </div>
     <div id="slideTwo" class="slide">
 
