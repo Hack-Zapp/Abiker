@@ -1,0 +1,17 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.slide{
+  width: 100%;
+  height: 100vh;
+}
+#slideOne{
+  background-color: black;
+}
+#slideTwo{
+  background-color: yellow;
+}
+#slideThree{
+  background-color: red;
+}
